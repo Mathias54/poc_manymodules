@@ -2,14 +2,15 @@
   "name": "@many/one",
   "version": "0.0.1",
   "private": false,
-  "description": "",
+  "description": "module one (test)",
   "main": "lib",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "mathias g azzolini",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1"
@@ -19,5 +20,16 @@
     "@babel/core": "^7.11.4",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@babel/preset-env": "^7.11.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathias54/poc_manymodules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mathias54/poc_manymodules/issues"
+  },
+  "homepage": "https://github.com/Mathias54/poc_manymodules#readme"
 }
