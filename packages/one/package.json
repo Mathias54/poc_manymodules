@@ -1,0 +1,16 @@
+{
+  "name": "@many/one",
+  "version": "0.0.1",
+  "private": false,
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
