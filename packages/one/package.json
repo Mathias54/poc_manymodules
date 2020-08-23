@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "private": false,
   "description": "",
-  "main": "src",
+  "main": "lib",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0"
   }
 }
