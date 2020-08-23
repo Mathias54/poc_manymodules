@@ -3,7 +3,7 @@ import {version} from '../package.json';
 
 function One() {
   return (
-    <div>Módulo 1. Versão: {version}</div>
+    <div>Módulo One. Versão: {version}</div>
   )
 }
 
