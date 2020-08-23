@@ -1,9 +1,9 @@
 {
-  "name": "@many/core",
+  "name": "@m4ny/core",
   "version": "0.0.2",
   "private": true,
   "dependencies": {
-    "@many/one": "^0.0.2",
+    "@m4ny/one": "^0.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import One from '@many/one';
+import One from '@m4ny/one';
 
 ReactDOM.render(
   <React.StrictMode>
