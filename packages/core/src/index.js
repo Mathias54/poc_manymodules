@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import One from '@m4ny/one';
+import Two from '@m4ny/two';
 
 ReactDOM.render(
   <React.StrictMode>
-    <One/>
+    <div>
+      <One/>
+      <Two/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
