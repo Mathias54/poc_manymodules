@@ -1,3 +1,4 @@
 /packages/one/node_modules/
 /.idea
 /node_modules/
+/packages/two/lib/
